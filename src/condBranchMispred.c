@@ -54,10 +54,13 @@ void victimFunc(uint64_t idx){
     uint8_t dummy = 2;
 
     // stall array1_sz by doing div operations (operation is (array1_sz << 4) / (2*4))
-    array1_sz =  array1_sz << 4;
+    array1_sz =  array1_sz << 7;
     asm("fcvt.s.lu	fa4, %[in]\n"
         "fcvt.s.lu	fa5, %[inout]\n"
         "fdiv.s	fa5, fa5, fa4\n"
+        "fdiv.s	fa5, fa5, fa4\n"
+        "fdiv.s	fa5, fa5, fa4\n"
+      	"fdiv.s	fa5, fa5, fa4\n"
         "fdiv.s	fa5, fa5, fa4\n"
         "fdiv.s	fa5, fa5, fa4\n"
         "fdiv.s	fa5, fa5, fa4\n"
