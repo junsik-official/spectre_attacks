@@ -97,7 +97,7 @@ int main(void){
 	printf("Attack round ");	
         // run the attack on the same idx ATTACK_SAME_ROUNDS times
         for(uint64_t atkRound = 0; atkRound < ATTACK_SAME_ROUNDS; ++atkRound){
-	    printf("[%d] ", atkRound);
+	    printf("[%d]", atkRound);
             // make sure array you read from is not in the cache
             flushCache((uint64_t)array2, sizeof(array2));
 
