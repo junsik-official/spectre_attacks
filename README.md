@@ -11,36 +11,6 @@ This repository holds all the work-in-progress code used to check if BOOM is sus
 | Ben Korpan       | bkorpan       |
 | Jerry Zhao       | jerry123      |
 
-# Further Details
-
-## BOOM Configuration
-
-This is working with the version of BOOM located at https://github.com/riscv-boom/riscv-boom/commit/8bb0e34feedf6d7b2465b10e0e166fec988b0396.
-
-```
-Processor Details:
-
-Extra Addition: Default FTQ Size
-
-Fetch Width        : 2
-Decode Width       : 2
-Issue Width        : 4
-ROB Size           : 100
-
-==Dense BTB==
-Sets          : 512
-Banks         : 2
-Ways          : 4
-Branch Levels : 2
-Tag Size      : 13
-Offset Size   : 13
-
-==BIM==
-(4 Kbits = 0 kB) Bimodal Table (1024 entries across 2 banks)
-
-==GShare==
-(2 kB) GShare Predictor, with 23 bits of history for (2-wide fetch) and 4096 entries.
-```
 
 ## Implemented Attacks
 
