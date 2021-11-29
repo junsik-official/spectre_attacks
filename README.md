@@ -6,10 +6,8 @@ This repository holds all the work-in-progress code used to check if BOOM is sus
 
 | Name             | Github Handle |
 | ---------------- | ------------- |
-| Abraham Gonzalez | abejgonzalez  |
-| Ed Younis        | riyt          |
-| Ben Korpan       | bkorpan       |
-| Jerry Zhao       | jerry123      |
+| Junsik SHIN      | sota-junsik   |
+
 
 
 ## Implemented Attacks
